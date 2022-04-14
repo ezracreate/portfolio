@@ -25,7 +25,7 @@ const Works = () => (
             title="Coinhunt"
             thumbnail={thumbCoinhunt}
           >
-            Place to find the next big cryptocoin and NFT's.
+            Place to find the next big cryptocoin and NFTs.
           </WorkGridItem>
         </Section>
         <Section>

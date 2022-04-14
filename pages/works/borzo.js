@@ -1,11 +1,9 @@
 import {
-  Box,
   Container,
   Badge,
   Link,
   List,
   ListItem,
-  UnorderedList,
   Heading,
   Center,
   SimpleGrid
@@ -52,7 +50,7 @@ const Work = () => (
       </List>
 
       <Heading as="h4" fontSize={16} my={6}>
-        <Center>With over '100K' User Base</Center>
+        <Center>With over 100K User Base</Center>
       </Heading>
 
       <WorkImage src="/images/works/borzo.png" alt="borzo" />
