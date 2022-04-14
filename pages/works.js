@@ -7,15 +7,9 @@ import thumbCoinhunt from '../public/images/works/coinhunt.png'
 import thumbCorn from '../public/images/works/corn.png'
 import thumbBorzo from '../public/images/works/borzo.png'
 import thumbWannabe from '../public/images/works/wannabe.png'
-
-import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
-import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
-import thumbMenkiki from '../public/images/works/menkiki_eyecatch.png'
 import thumbModeTokyo from '../public/images/works/modetokyo_eyecatch.png'
 import thumbStyly from '../public/images/works/styly_eyecatch.png'
-import thumbPichu2 from '../public/images/works/pichu2_eyecatch.png'
 import thumbFreeDBTagger from '../public/images/works/freedbtagger_eyecatch.png'
-import thumbAmembo from '../public/images/works/amembo_eyecatch.png'
 
 const Works = () => (
   <Layout title="Works">
