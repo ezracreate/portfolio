@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="walknote">
     <Container>
       <Title>
-        walknote <Badge>2011-2016</Badge>
+        walknote <Badge>2019-present</Badge>
       </Title>
       <P>
         walknote recommends new music you may like based on your music
