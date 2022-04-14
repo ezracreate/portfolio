@@ -18,7 +18,7 @@ const Work = () => (
   <Layout title="freeDBTagger">
     <Container>
       <Title>
-        freeDBTagger <Badge>2004-2009</Badge>
+        freeDBTagger <Badge>2012-20015</Badge>
       </Title>
       <Center my={6}>
         <Image src="/images/works/freedbtagger_icon.gif" alt="icon" />
@@ -48,7 +48,7 @@ const Work = () => (
         </ListItem>
         <ListItem>
           <Meta>Last update</Meta>
-          <span>2009/02/16</span>
+          <span>2016/02/16</span>
         </ListItem>
       </List>
 
