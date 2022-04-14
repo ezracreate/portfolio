@@ -8,7 +8,7 @@ const Work = () => (
   <Layout title="Coinhunt">
     <Container>
       <Title>
-        Inkdrop <Badge>2021-</Badge>
+        Coinhunt <Badge>2021- Present</Badge>
       </Title>
       <P>
         Coinhunt is the place to find the next big cryptocoin. This is a
@@ -34,7 +34,7 @@ const Work = () => (
           <Meta>Blogpost</Meta>
           <Link href="https://coinhunt.cc/news/1255197878">
             Zilliqa Ecosystem and Sharding Based Blockchain
-            <ExternalLinkIcon mx="2px" target="_blank" />
+            <ExternalLinkIcon mx="2px" />
           </Link>
         </ListItem>
       </List>

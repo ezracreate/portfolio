@@ -5,6 +5,8 @@ import { WorkGridItem } from '../components/grid-item'
 
 import thumbCoinhunt from '../public/images/works/coinhunt.png'
 import thumbCorn from '../public/images/works/corn.png'
+import thumbBorzo from '../public/images/works/borzo.png'
+import thumbWannabe from '../public/images/works/wannabe.png'
 
 import thumbWalknote from '../public/images/works/walknote_eyecatch.png'
 import thumbFourPainters from '../public/images/works/the-four-painters_eyecatch.jpg'
@@ -34,24 +36,20 @@ const Works = () => (
         </Section>
         <Section>
           <WorkGridItem id="pioneer" title="Pioneer" thumbnail={thumbCorn}>
-            Science Reasearch Website for pioneer
+            Science Reasearch Website for pioneer.
           </WorkGridItem>
         </Section>
 
         <Section delay={0.1}>
-          <WorkGridItem
-            id="fourpainters"
-            title="The four painters"
-            thumbnail={thumbFourPainters}
-          >
-            A video work generated with deep learning, imitating famous four
-            painters like Van Gogh
+          <WorkGridItem id="borzo" title="Borzo" thumbnail={thumbBorzo}>
+            Borzo — express same-day delivery service .
           </WorkGridItem>
         </Section>
         <Section delay={0.1}>
-          <WorkGridItem id="menkiki" thumbnail={thumbMenkiki} title="Menkiki">
-            An app that suggests ramen(noodle) shops based on a given photo of
-            the ramen you want to eat
+          <WorkGridItem id="wannabe" thumbnail={thumbWannabe} title="Wannabe">
+            Wannabe is an independent online store, selling high-end iconic
+            collectibles of action figures and props for lovers and newbies
+            worldwide.
           </WorkGridItem>
         </Section>
       </SimpleGrid>
@@ -91,23 +89,12 @@ const Works = () => (
 
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section delay={0.5}>
-          <WorkGridItem id="pichu2" thumbnail={thumbPichu2} title="Pichu*Pichu">
-            Twitter client app for iPhone Safari
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.5}>
           <WorkGridItem
             id="freedbtagger"
             thumbnail={thumbFreeDBTagger}
             title="freeDBTagger"
           >
             Automatic audio file tagging tool using FreeDB for Windows
-          </WorkGridItem>
-        </Section>
-        <Section delay={0.6}>
-          <WorkGridItem id="amembo" thumbnail={thumbAmembo} title="Amembo">
-            P2P private file sharing tool with MSN Messenger integration for
-            Windows
           </WorkGridItem>
         </Section>
       </SimpleGrid>
