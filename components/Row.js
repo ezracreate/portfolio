@@ -1,5 +1,3 @@
-import { AlertDescription } from '@chakra-ui/react'
-import Link from 'next/link'
 import { WorkGridItem } from './grid-item'
 import Section from './section'
 

@@ -1,7 +1,7 @@
-import { useSession, signOut } from 'next-auth/react'
+import { useSession } from 'next-auth/react'
 
 export default function Page() {
-  const { data: session, status } = useSession()
+  const { data: session } = useSession()
   if (session && session.user.role === 'admin') {
     return (
       <div>
