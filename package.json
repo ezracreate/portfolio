@@ -1,7 +1,7 @@
 {
   "name": "craftzdog-homepage",
   "version": "1.0.0",
-  "description": "Takuya's website",
+  "description": "Nick's website",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",
     "build": "next build",
@@ -17,16 +17,33 @@
     "@chakra-ui/react": "^1.7.2",
     "@emotion/react": "^11.6.0",
     "@emotion/styled": "^11.6.0",
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "@next-auth/prisma-adapter": "^1.0.4",
+    "@prisma/client": "^4.1.1",
+    "axios": "^0.27.2",
+    "classnames": "^2.3.1",
+    "faunadb": "^4.6.0",
+    "formik": "^2.2.9",
     "framer-motion": "^5.3.0",
+    "handlebars": "^4.7.7",
     "next": "^12.1.0",
+    "next-auth": "^4.10.3",
+    "nodemailer": "^6.7.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-hot-toast": "^2.3.0",
     "react-icons": "^4.3.1",
-    "three": "^0.134.0"
+    "three": "^0.134.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
+    "autoprefixer": "^10.4.8",
     "eslint": "^7.32.0",
     "eslint-config-next": "^12.0.4",
-    "prettier": "^2.4.1"
+    "postcss": "^8.4.14",
+    "prettier": "^2.4.1",
+    "prisma": "^4.1.1",
+    "tailwindcss": "^3.1.7"
   }
 }
