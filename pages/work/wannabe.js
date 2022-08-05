@@ -17,7 +17,7 @@ const Work = () => (
   <Layout title="Wannabe">
     <Container>
       <Title>
-        Wannabe <Badge>2015</Badge>
+        Wannabe <Badge>2021</Badge>
       </Title>
       <P>
         Wannabe is an independent online store, selling high-end iconic
